@@ -41,16 +41,16 @@ know where to send packets.
 The two shims to use are specified with a JSON file in the
 following format:
 
-   {
-       "Client" : {
-           "Path" : "go",
-           "Args" : ["run", "github.com/ekr/minq/bin/shim/main.go" ]
-       },
-       "Server" : {
-           "Path" : "go",
-           "Args" : ["run", "github.com/ekr/minq/bin/shim/main.go", "-server" ]
-       }
-   }
+    {
+        "Client" : {
+            "Path" : "go",
+            "Args" : ["run", "github.com/ekr/minq/bin/shim/main.go" ]
+        },
+        "Server" : {
+            "Path" : "go",
+            "Args" : ["run", "github.com/ekr/minq/bin/shim/main.go", "-server" ]
+        }
+    }
 
 The |Path| and |Args| fields have the expected value. Note that because
 you can provide extra args, you can have one shim be both client and
