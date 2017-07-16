@@ -1,0 +1,10 @@
+{
+    "Client" : {
+        "Path" : "go",
+        "Args" : ["run", "github.com/ekr/minq/bin/shim/main.go" ]
+    },
+    "Server" : {
+        "Path" : "go",
+        "Args" : ["run", "github.com/ekr/minq/bin/shim/main.go", "-server" ]
+    }
+}

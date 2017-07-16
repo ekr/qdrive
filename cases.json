@@ -1,0 +1,9 @@
+{
+    "Cases" : [
+        {
+            "Name" : "basic",
+            "ClientArgs": [],
+            "ServerArgs": []
+        }
+        ]
+}
